@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      .profile-picture {
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem 0;
+      }
+
+      .profile-picture img {
+        width: 150px; 
+        height: 150px;
+        border-radius: 50%;
+        border: 3px solid #4CAF50; 
+        object-fit: cover;
+       }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #4c7b8b;
+        color: #2C2C2C;
+        line-height: 1.6;
+      }
+      header {
+        background-color: #FF8C42;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #2E2E2E;
+        padding: 0.5rem 0;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 1rem;
+        font-weight: bold;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 1rem;
+      }
+      section {
+        margin-bottom: 2rem;
+      }
+      h1,
+      h2 {
+        color: #3b6790;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Portfolio</h1>
+      <p>A brief showcase of my projects and skills</p>
+    </header>
+
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="profile-picture">
+        <img src="pic.jpeg" alt="Your Photo">
+    </div>
+    
+    <div class="container">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          A computer science enthusiast with a passion for automotive
+          engineering, AI, and ML, I thrive at the intersection of technology
+          and mobility. I am fascinated by how artificial intelligence and
+          machine learning can revolutionize the automotive industry, from
+          enabling autonomous driving systems to enhancing smart vehicle
+          connectivity. With a blend of technical expertise in AI/ML and
+          creative problem-solving, I am driven to innovate and push the
+          boundaries of what’s possible in these cutting-edge fields.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <p>
+          During my internship at Drobots Tech, I developed a front-end web
+          application using React, tailored for end-users to order drone pickups
+          and deliveries for various packages. This platform streamlined the
+          process of scheduling drone services, catering to different package
+          types such as medicine, regular parcels, and urgent deliveries.
+          Leveraging the Google Maps API, I integrated a dynamic map interface,
+          enabling users to easily select pickup and delivery locations with
+          precision. To ensure a seamless experience, I designed intuitive
+          functionalities, prioritizing user-friendliness and accessibility.
+          This project not only honed my technical skills in React and API
+          integration but also showcased my ability to create innovative
+          solutions in the rapidly evolving drone technology space.
+        </p>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <p>
+          During my internship at Drobots Tech, I gained valuable experience
+          working in a fast-paced startup environment. I collaborated with a
+          dynamic team to solve real-world challenges, enhancing my technical
+          and problem-solving skills. The role allowed me to apply my knowledge
+          of web development and API integration to meaningful tasks. I also
+          developed a deeper understanding of user-centric design and the
+          importance of creating intuitive solutions. This experience
+          strengthened my ability to work effectively under deadlines while
+          contributing to innovative technological advancements.
+        </p>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            <p>You can reach me at: <a href="mailto:joshuaalwinking@gmail.com">joshuaalwinking@gmail.com</a></p>
+            <p>My Github Profile:<a href="https://github.com/JoshuaisaKing">Github</a></p>
+            <h5>Competitve Coding Platforms</h5>
+            <p>Leetcode  <a href="https://leetcode.com/u/joshuaalwinking/">Profile</a></p>
+        </p>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
